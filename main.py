@@ -3,6 +3,22 @@ from prediction_helper import predict
 
 st.title("Credit Risk Modelling")
 
+with st.expander("ℹ️ How to use the app"):
+    st.write("""
+    - **Age**: Enter your age between 18-100. Younger borrowers might have different risk profiles.
+    - **Income**: Enter your annual income in INR. Higher income can reduce the likelihood of default.
+    - **Loan Amount**: The total loan amount you are applying for. Larger loans tend to carry more risk.
+    - **Loan to Income Ratio**: This is automatically calculated based on your income and loan amount.
+    - **Loan Tenure**: The duration (in months) for which the loan is being taken.
+    - **Average DPD**: The average number of days past due for your previous loans.
+    - **Delinquency Ratio**: The percentage of delinquent accounts in your credit history.
+    - **Credit Utilization Ratio**: The percentage of your credit that you're currently utilizing.
+    - **Number of Open Loan Accounts**: The total number of open credit accounts you have.
+    - **Residence Type**: Choose if you own, rent, or mortgage your home.
+    - **Loan Purpose**: The reason for taking the loan (e.g., education, home, personal).
+    - **Loan Type**: Whether the loan is secured or unsecured.
+    """)
+
 row1 = st.columns(3)
 row2 = st.columns(3)
 row3 = st.columns(3)
@@ -48,3 +64,15 @@ if st.button('Calculate Risk'):
     st.write(f"Credit Score: {credit_score}")
     st.write(f"Rating: {rating}")
 
+with st.expander("🔮 Default Probability"):
+    st.write("""
+    The default probability is the likelihood that the borrower will fail to make payments. A higher percentage means a higher risk.
+    """)
+with st.expander("📊 Credit Score"):
+    st.write("""
+    The credit score is calculated based on the input data and reflects the borrower's creditworthiness. Scores typically range from 300 to 900.
+    """)
+with st.expander("🏅 Credit Rating"):
+    st.write("""
+    The credit rating is a qualitative measure of the borrower’s creditworthiness, typically rated as Poor, Average, Good, or Excellent.
+    """)
