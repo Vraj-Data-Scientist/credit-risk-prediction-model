@@ -25,17 +25,20 @@ The repository is structured as follows:
 ## 3. Features
 
 The model takes into account the following features:
-- **Age:** Applicant's age in years.
-- **Income:** Annual income in INR.
-- **Loan Amount:** The loan amount requested.
-- **Loan Tenure (Months):** The duration of the loan in months.
-- **Average DPD (Days Past Due):** Average number of days the applicant was overdue on previous loans.
-- **Delinquency Ratio:** The percentage of delinquent accounts in the credit history.
-- **Credit Utilization Ratio:** The percentage of available credit that the applicant is using.
-- **Number of Open Loan Accounts:** Total number of open loan accounts.
-- **Residence Type:** Whether the applicant owns, rents, or mortgages their home.
-- **Loan Purpose:** Reason for taking the loan (education, home, personal, etc.).
-- **Loan Type:** Whether the loan is secured or unsecured.
+
+- **Age**: Enter your age between 18-100. Younger borrowers might have different risk profiles.
+- **Income**: Enter your annual income in INR. Higher income can reduce the likelihood of default.
+- **Loan Amount**: The total loan amount you are applying for. Larger loans tend to carry more risk.
+- **Loan to Income Ratio**: This is automatically calculated based on your income and loan amount.
+- **Loan Tenure**: The duration (in months) for which the loan is being taken.
+- **Average DPD**: The average number of days past due for your previous loans.
+- **Delinquency Ratio**: The percentage of delinquent accounts in your credit history.
+- **Credit Utilization Ratio**: The percentage of your credit that you're currently utilizing.
+- **Number of Open Loan Accounts**: The total number of open credit accounts you have.
+- **Residence Type**: Choose if you own, rent, or mortgage your home.
+- **Loan Purpose**: The reason for taking the loan (e.g., education, home, personal).
+- **Loan Type**: Whether the loan is secured or unsecured.
+
 
 
 ## 4. Installation Instructions
