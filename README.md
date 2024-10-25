@@ -12,9 +12,14 @@ The **Credit Risk Prediction Model** uses multiple borrower attributes such as a
 
 The repository is structured as follows:
 
-main.py  # Streamlit application file  
-prediction_helper.py  # Helper functions for preprocessing and making predictions  
-requirements.txt  # Python dependencies for the project  
+- `main.py` — Streamlit application file
+- `prediction_helper.py` — Helper functions for preprocessing and making predictions
+- `requirements.txt` — Python dependencies for the project
+- `README.md` — Project README file
+- `ml_credit_risk_model.ipynb` — Jupyter notebook for the entire project, including data exploration, preprocessing, and model training
+- `artifacts/` — Directory containing model artifacts
+  - `model_data.joblib` — Serialized model and scaler saved as a joblib file
+
 
 
 ## 3. Features
