@@ -109,10 +109,18 @@ Credit Rating
 ## 8. Contributions
 
 We welcome contributions from the community! If you'd like to improve the model or add new features, feel free to fork this repository and submit a pull request.
-
 ## Dataset Citation
 This project uses a dataset provided by Codebasics as part of the Codebasics Data Science Bootcamp. The dataset is not included in this repository due to usage restrictions.
 
 ### Citation
+
+If you would like to use the dataset, please reference it as follows:
+
+```markdown
+Codebasics. (n.d.). Dataset from the Codebasics Data Science Bootcamp. Retrieved from [Codebasics](https://codebasics.io/)
+```
+
 Note: Users interested in obtaining the dataset should contact Codebasics directly through their website to gain access. This citation is for reference purposes only.
+
+
 
